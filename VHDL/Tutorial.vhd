@@ -2,7 +2,8 @@
 --  Tutorial with some simple logic gates.  This is intended to be
 --  a minimal model that shows some of the basics.
 --
---  Note that the signal list was copied from an Arduino forum post.
+--  Note that the signal list was copied from an Arduino forum post
+--  in this thread https://forum.arduino.cc/t/how-to-code-and-run-vhdl-examples/561115/11
 --
 library ieee;
 
