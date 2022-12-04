@@ -7,6 +7,7 @@ device correct and getting the pin definition loaded.  Once I got those,
 I could copy the tutorial files into my project, build/modify them, load them,
 and run them.
 
+## Basic Steps
 Here are the steps that I used.
 1. Download the Intel Quartus Prime software.  I am using version 21.1.1
 Build 850 06/23/2022 SJ Lite Edition
@@ -28,6 +29,7 @@ The Arduino sketch runs through the four possible inputs and prints the results
 from the FPGA.  Consider this to be the equivalent of a "Hello World" program to
 verify that you have the toolchain setup and can load and run things.
 
+## Pinout
 One other thing that I have seen documented anywhere is pins to use on the FPGA
 side and the CPU side.  The table below is what I've found.
 
@@ -56,4 +58,16 @@ side and the CPU side.  The table below is what I've found.
 | `bMKR_A[5]` | 20 |
 | `bMKR_A[6]` | 21 |
 | `bMKR_AREF` | unknown |
+ 
+ ## Other interesting bits
+ I decided to install modelsim for simulating my models.  I searched online for it and found an Intel
+ version.  Since I'm using Intel software, I figured that would be the one to use.  After installing
+ it, I discovered that in Quartus Prime, it is called Questa Intel FPGA, not modelsim as one would
+ expect.  After installing it, you have to go into your model settings and select the proper simulator
+ before you can use it.  This is as far as I have gotten so far.
+ 
+ ## Final Notes
+ This will hopefully be enough to get you started.  The main intent is to get to the point where you
+ can build a FPGA model and use it with an Arduino sketch.  Once you get to this point, you can start
+ learing FPGA design instead of how to setup the tools.
  
