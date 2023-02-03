@@ -58,6 +58,7 @@ side and the CPU side.  The table below is what I've found.
 | `bMKR_A[5]` | 20 |
 | `bMKR_A[6]` | 21 |
 | `bMKR_AREF` | unknown |
+| `iCLK` | Seems to be a 48MHz input |
  
  ## Other interesting bits
  I decided to install modelsim for simulating my models.  I searched online for it and found an Intel
